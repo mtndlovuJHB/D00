@@ -1,3 +1,6 @@
 2020/07/07-07:21:16.037 df03 Reusing MANIFEST Session Storage/MANIFEST-000001
 2020/07/07-07:21:16.038 df03 Recovering log #6
 2020/07/07-07:21:16.075 df03 Reusing old log Session Storage/000006.log 
+2020/07/07-11:18:16.958 31867 Level-0 table #10: started
+2020/07/07-11:18:17.092 31867 Level-0 table #10: 15654 bytes OK
+2020/07/07-11:18:17.192 31867 Delete type=0 #6

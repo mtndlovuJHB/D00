@@ -56,5 +56,14 @@
 		<key>URL</key>
 		<string>file:///.file/id=6571367.12884999172</string>
 	</dict>
+	<key>text </key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>TextEdit</string>
+		<key>LAST_USED</key>
+		<date>2020-07-07T09:47:50Z</date>
+		<key>URL</key>
+		<string>file:///Applications/TextEdit.app/</string>
+	</dict>
 </dict>
 </plist>
