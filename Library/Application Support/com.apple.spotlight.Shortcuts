@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bluet</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>Bluetooth</string>
+		<key>LAST_USED</key>
+		<date>2020-07-07T05:47:44Z</date>
+		<key>URL</key>
+		<string>file:///System/Library/PreferencePanes/Bluetooth.prefPane/</string>
+	</dict>
+	<key>bluetoo</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>Bluetooth</string>
+		<key>LAST_USED</key>
+		<date>2020-07-06T11:23:15Z</date>
+		<key>URL</key>
+		<string>file:///.file/id=6571367.12885389882</string>
+	</dict>
+	<key>chrome</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>Google Chrome</string>
+		<key>LAST_USED</key>
+		<date>2020-07-06T08:51:58Z</date>
+		<key>URL</key>
+		<string>file:///Applications/Google%20Chrome.app/</string>
+	</dict>
+	<key>iterm</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>iTerm</string>
+		<key>LAST_USED</key>
+		<date>2020-07-06T08:59:23Z</date>
+		<key>URL</key>
+		<string>file:///Applications/iTerm.app/</string>
+	</dict>
+	<key>photo</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>Photo Booth</string>
+		<key>LAST_USED</key>
+		<date>2020-07-06T08:54:19Z</date>
+		<key>URL</key>
+		<string>file:///Applications/Photo%20Booth.app/</string>
+	</dict>
+	<key>termi</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>Terminal</string>
+		<key>LAST_USED</key>
+		<date>2020-07-06T09:08:22Z</date>
+		<key>URL</key>
+		<string>file:///.file/id=6571367.12884999172</string>
+	</dict>
+</dict>
+</plist>

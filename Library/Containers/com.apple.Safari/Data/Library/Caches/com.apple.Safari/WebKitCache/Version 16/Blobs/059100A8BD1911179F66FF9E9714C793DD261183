@@ -1,0 +1,39 @@
+/* _GlobalPrefix_ */
+/*_JS*/
+/*_M:Odkg3b*/
+try{
+var Wxk="users",Xxk=function(){try{hp.localStorage.removeItem(TRb)}catch(b){}};x().Na("Odkg3b");
+var Yxk=function(b){II.call(this,b.Hc);this.ha=this.wa=this.Ba=this.Aa=null};D(Yxk,II);Yxk.qc=II.qc;Yxk.prototype.initialize=function(){var b=this;u1a("Lla",this.Ca,864E5,this);return this.Ca().then(function(){var c=xH(b.Da.bind(b));b.Ba.addListener(c)}).then(function(){return Zxk(b)})};
+Yxk.prototype.Ca=function(){var b=this,c=Date.now(),d=iRf();return Promise.resolve(this.Ta().Kc(b$b)).then(function(e){b.Aa=new ece(e);b.Ba=e;e={fE:ot,WFa:c,NYb:d,DW:b.Aa.DW()};return $xk(b,e)}).then(function(){return Promise.resolve()},function(){return Promise.reject()})};Yxk.prototype.Da=function(b){return b.getType()!==(rH(),WUb)?Promise.resolve():ayk(this,this.Aa.DW())};
+var ayk=function(b,c){return(null==b.wa?byk(b):Promise.resolve(b.wa)).then(function(d){if(null==d)return Promise.reject(Error("Mla`"+ot));if(d.DW===c)return Promise.resolve();d.DW=c;return $xk(b,d)}).then(function(){return Promise.resolve()},function(d){return Promise.reject(d)})},Zxk=function(b){return cyk(b).then(function(c){return new Promise(function(d,e){var f=c.transaction([Wxk]).objectStore(Wxk).getAll();f.onsuccess=function(g){0<g.target.result.filter(function(k){return k.wipeOnLogout}).length?
+(new a1a(top.document)).set("CSD","1",{g8:864E4,path:"/",domain:null,secure:window.location.protocol===Wsa}):(new a1a(top.document)).remove("CSD","/");d()};f.onerror=function(g){return e(g)}})})},byk=function(b){return cyk(b).then(function(c){return new Promise(function(d,e){var f=c.transaction([Wxk]).objectStore(Wxk).get(ot);f.onsuccess=function(){var g=f.result?dyk(f.result):null;null!=g&&g.fE===ot&&(b.wa=g);d(g)};f.onerror=function(g){return e(g)}})})},$xk=function(b,c){c.fE===ot&&(b.wa=c);return cyk(b).then(function(d){return new Promise(function(e,
+f){var g=d.transaction([Wxk],em),k={userEmail:c.fE,lastAccessTime:c.WFa,wipeOnLogout:c.NYb,hasPendingSync:c.DW};g=g.objectStore(Wxk).put(k);g.onsuccess=function(){return e()};g.onerror=function(l){return f(l)}})})},cyk=function(b){return null!=b.ha?Promise.resolve(b.ha):new Promise(function(c,d){var e=indexedDB.open("user_registry",1);e.onupgradeneeded=function(){e.result.createObjectStore(Wxk,{keyPath:"userEmail"})};e.onsuccess=function(f){b.ha=f.target.result;b.ha.onclose=function(){b.ha=null};
+c(b.ha)};e.onerror=function(f){d(f)};e.onblocked=function(f){d(f)}})},dyk=function(b){return{fE:b.userEmail,WFa:b.lastAccessTime,NYb:b.wipeOnLogout,DW:b.hasPendingSync}};JI(Bbc,Yxk);
+
+x().Ma();
+
+}catch(e){_DumpException(e)}
+/*_M:VgcCKb*/
+try{
+var mzk=function(b){if(!hp.indexedDB)return Promise.resolve();var c=lzk.map(function(d){var e=b+d;return new Promise(function(f,g){try{var k=hp.indexedDB.deleteDatabase(e);k.onsuccess=f;k.onerror=function(l){g(Error("Wla`"+e+"`"+l))}}catch(l){g(l)}})});return Promise.all(c).then(p())},pzk=function(b){var c=nzk(),d=new mp(WA);Dp(d,xf,"csd");Dp(d,ag,ip(Nga,""));Dp(d,"csdr",String(b));return Promise.resolve(hp.fetch(d.toString(),{credentials:qta})).then(function(){ozk(c)})},nzk=function(){for(var b=
+new Map,c=0;c<window.localStorage.length;c++){var d=window.localStorage.key(c);if(null!=d){var e=hp.localStorage.getItem(d);b.set(d,e)}}return b},ozk=function(b){b.forEach(function(c,d){return hp.localStorage.setItem(d,c)})};x().Na("VgcCKb");
+var lzk=[E4d,Yve,Zve,eQf,Xve,Xma,"_docid"],qzk=function(b){II.call(this,b.Hc);this.ha=b.Kb.Qf;this.wa=b.Kb.features.xe().Fc(7733)};D(qzk,II);qzk.qc=function(){return{Kb:{features:fg,Qf:Ty}}};var szk=function(b){return Promise.all([mzk(b),rzk(b)]).then(p())};qzk.prototype.Jba=function(b){var c=this;return(this.wa&&Tp&&Up(78)?szk(ot):pzk(b)).catch(function(d){c.ha.Mb(hub);return Promise.reject(d)})};var rzk=function(b){b=void 0===b?ot:b;return hp.caches?hp.caches.delete(b+dQf).then(p(),t(null)):Promise.resolve()};
+JI($Ic,qzk);
+
+x().Ma();
+
+}catch(e){_DumpException(e)}
+/*_M:ua6dje*/
+try{
+var tzk=function(b){return cyk(b).then(function(c){return new Promise(function(d,e){var f=c.transaction([Wxk],em).objectStore(Wxk).getAll();f.onsuccess=function(){f.result||d(null);d(f.result.map(function(g){g=dyk(g);g.fE===ot&&(b.wa=g);return g}))};f.onerror=function(g){return e(g)}})})},uzk=function(b,c){return cyk(b).then(function(d){return new Promise(function(e,f){var g=d.transaction([Wxk],em).objectStore(Wxk).delete(c);g.onsuccess=function(){return e()};g.onerror=function(k){return f(k)}})}).then(function(){return Promise.resolve()},
+function(){return Promise.reject()})};x().Na("ua6dje");
+var vzk=function(b){II.call(this,b.Hc);this.wa=b.Kb.Qf;this.ha=b.service.oZc;this.Ba=b.service.kZc;this.Da=b.Kb.features.xe().Fc(7662);this.Ca=b.Kb.features.xe().Fc(7733)};D(vzk,II);vzk.qc=function(){return{Kb:{features:fg,Qf:Ty},service:{kZc:qzk,oZc:Yxk}}};vzk.prototype.Hgd=function(){return hp.indexedDB&&Bwe(this.Da)?this.Ca&&Tp&&Up(78)?wzk(this):xzk(this):Promise.resolve()};
+var wzk=function(b){return tzk(b.ha).then(function(c){return c?Promise.all(c.map(function(d){return 2592E6>Date.now()-d.WFa||d.fE==ot?Promise.resolve():yzk(b,d.fE)})):Promise.resolve()}).then(function(){return zzk(b)})},zzk=function(b){return jJa?jp()?Awe()?Promise.resolve():rzk():Azk(b).then(function(c){if(c)return yzk(b,ot)}):(Xxk(),Promise.resolve())},yzk=function(b,c){return szk(c).then(function(){return uzk(b.ha,c)}).then(function(){b.wa.Mb(Aub)}).catch(function(){b.wa.Mb(Cub)})},xzk=function(b){if(!jJa)return Xxk(),
+Promise.resolve();var c=[Bzk(b)];jp()?Awe()||c.push(rzk()):c.push(Azk(b).then(function(d){d&&Czk(b)}));return Promise.all(c).then(p())},Bzk=function(b){return jp()?Promise.resolve():tzk(b.ha).then(function(c){if(0<c.length&&c.every(function(d){return 2592E6<Date.now()-d.WFa&&d.fE!=ot}))return b.Ba.Jba(6).then(function(){b.wa.Mb(zub)}).catch(function(){b.wa.Mb(Bub)})})},Czk=function(b){b.Ba.Jba(1).then(function(){return uzk(b.ha,ot)}).catch(p())},Azk=function(b){return byk(b.ha).then(function(c){return null!=
+c?Promise.resolve(!0):b.Aa()})};vzk.prototype.Aa=function(){var b="attachmentupload embedded_data lfdb messagedetails offlinecontacts offline_search".split(" ").map(function(c){var d=ot+"_"+c;return new Promise(function(e){var f=indexedDB.open(d);f.onupgradeneeded=function(g){g.target.transaction.abort();e(!1)};f.onsuccess=function(){e(!0)};f.onerror=function(){e(!1)}})});return Cp.all(b).then(function(c){return c.includes(!0)})};JI(aJc,vzk);
+
+x().Ma();
+
+}catch(e){_DumpException(e)}
+/* _GlobalSuffix_ */
+// Google Inc.

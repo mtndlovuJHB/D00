@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes" ?>
+
+<java-update-map version="1.0">
+       <mapping>
+      <version>1.8.0_221-b11</version>      
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b08.xml</url>
+      </mapping>
+      <mapping>
+      <version>1.8.0_231-b11</version>      
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b08.xml</url>
+      </mapping>
+      <mapping>
+      <version>1.8.0_241-b07</version>      
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b08.xml</url>
+      </mapping>
+      <mapping>
+      <version>1.8.0_251-b08</version>      
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b08.xml</url>
+      </mapping>
+
+ <!--CUSTOMER BUILD ONLY AU-->
+
+        <mapping>
+      <version>1.8.0_221-b27</version>
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b25-cb.xml</url>
+      </mapping>
+      <mapping>
+      <version>1.8.0_221-b32</version>
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b25-cb.xml</url>
+      </mapping>
+      <mapping>
+      <version>1.8.0_221-b33</version>
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b25-cb.xml</url>
+      </mapping>
+      <mapping>
+      <version>1.8.0_221-b34</version>
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b25-cb.xml</url>
+      </mapping>
+      <mapping>
+      <version>1.8.0_221-b35</version>
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b25-cb.xml</url>
+      </mapping>
+      <mapping>
+      <version>1.8.0_221-b36</version>
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b25-cb.xml</url>
+      </mapping>
+      <mapping>
+      <version>1.8.0_231-b26</version>      
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b25-cb.xml</url>
+      </mapping>
+       <mapping>
+      <version>1.8.0_231-b32</version>      
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b25-cb.xml</url>
+      </mapping>    
+      <mapping>
+      <version>1.8.0_231-b33</version>      
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b25-cb.xml</url>
+      </mapping>
+       <mapping>
+      <version>1.8.0_231-b34</version>      
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b25-cb.xml</url>
+      </mapping>
+      <mapping>
+      <version>1.8.0_241-b26</version>      
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b25-cb.xml</url>
+      </mapping> 
+      <mapping>
+      <version>1.8.0_241-b31</version>      
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b25-cb.xml</url>
+      </mapping>
+
+      <mapping>
+      <version>1.8.0_241-b32</version>      
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b31-cb.xml</url>
+      </mapping> 
+      <mapping>
+      <version>1.8.0_241-b33</version>      
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b31-cb.xml</url>
+      </mapping>
+
+      <mapping>
+      <version>1.8.0_251-b25</version>      
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b25-cb.xml</url>
+      </mapping>
+      <mapping>
+      <version>1.8.0_251-b31</version>      
+      <url>https://javadl-esd-secure.oracle.com/update/mac/3d5a2bb8f8d4428bbe94aed7ec7ae784/au-1.8.0_251-b31-cb.xml</url>
+      </mapping>
+
+
+</java-update-map>

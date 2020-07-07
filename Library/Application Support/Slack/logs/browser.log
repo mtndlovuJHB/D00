@@ -1,0 +1,546 @@
+[07/06/20, 12:17:25:737] info: 
+╔═══════════════════════════════════════════════════════════════════════╗
+║      Slack 4.6.0, darwin 18.7.0 on x64 at 07/06/20, 12:17:25:697      ║
+╚═══════════════════════════════════════════════════════════════════════╝ 
+[07/06/20, 12:17:25:740] info: Configured logger via 
+{
+  "logLevel": "info",
+  "numberOfInstances": 1
+}
+[07/06/20, 12:17:25:740] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "darwin",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.channel": "prod",
+  "PACKAGE_MANIFEST.version": "4.6.0",
+  "PACKAGE_MANIFEST.commit": "b3b0e97",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[07/06/20, 12:17:25:985] info: Could not load previous electron version 
+[07/06/20, 12:17:26:709] info: Main: Received slack:// protocol link from open-url event, handling when ready 
+{
+  "url": "slack://TRTQJF40Z/magic-login/1230258637460-14beb9d7a02ed54a709d0f05814c03ae80e6ef4b01eda2911761233f8180cbf5"
+}
+[07/06/20, 12:17:26:759] info: Store: persist/REHYDRATE 
+[07/06/20, 12:17:26:760] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 0,
+  "interval": 9
+}
+[07/06/20, 12:17:26:762] info: Store: UPDATE_SETTINGS 
+{
+  "locale": "en-US"
+}
+[07/06/20, 12:17:26:763] info: Store: INITIALIZE 
+{
+  "resourcePath": "/Applications/Slack.app/Contents/Resources/app.asar"
+}
+[07/06/20, 12:17:26:765] info: persistUuid:: Generated uuid 
+{
+  "uuid": "24a22a9e-dc4d-5996-ba00-b6187c19c656"
+}
+[07/06/20, 12:17:26:766] info: persistUuid:: Uuid persisted successfully 
+[07/06/20, 12:17:27:383] info: Store: HANDLE_DEEP_LINK 
+{
+  "url": "slack://TRTQJF40Z/magic-login/1230258637460-14beb9d7a02ed54a709d0f05814c03ae80e6ef4b01eda2911761233f8180cbf5"
+}
+[07/06/20, 12:17:27:507] info: MagicLogin: Making magic login API request to https://app.slack.com/api/ 
+[07/06/20, 12:17:27:577] info: Store: READY 
+{
+  "resourcePath": "/Applications/Slack.app/Contents/Resources/app.asar",
+  "appVersion": "4.6.0",
+  "is64Bit": true,
+  "isGpuCompositionAvailable": true,
+  "isTitleBarHidden": true,
+  "platform": "darwin",
+  "platformVersion": {
+    "major": 18,
+    "minor": 7,
+    "build": 0
+  },
+  "releaseChannel": "prod",
+  "uuid": "24a22a9e-dc4d-5996-ba00-b6187c19c656",
+  "sessionId": "MjRhMjJhOWUtZGM0ZC01OTk2LWJhMDAtYjYxODdjMTljNjU2XzE1OTQwMzA2NDY3NjY=",
+  "distribution": "DDL",
+  "darwin": {
+    "isStore": false,
+    "macOSVersion": "10.14.6"
+  }
+}
+[07/06/20, 12:17:27:579] info: Store: SET_ACCESSIBILITY_SUPPORT_ENABLED 
+[07/06/20, 12:17:27:580] info: initializeApplicationEpic: Welcome to Slack 4.6.0 x64 
+[07/06/20, 12:17:27:580] info: Store: CREATE_WINDOW 
+{
+  "type": "main"
+}
+[07/06/20, 12:17:27:583] info: Store: UPDATE_SETTINGS 
+{
+  "isSignedIntoSlackOrg": false
+}
+[07/06/20, 12:17:27:583] info: AutoLoginEpic: Checking for autologin. 
+[07/06/20, 12:17:27:592] info: Store: UPDATE_SETTINGS 
+{
+  "useHwAcceleration": true,
+  "launchOnStartup": false,
+  "locale": "en-GB",
+  "PrefSSBFileDownloadPath": "/goinfre/mtndlovu/Downloads",
+  "hasRunApp": true
+}
+[07/06/20, 12:17:27:598] info: AutoLaunch: Disabled 
+[07/06/20, 12:17:27:599] info: System configuration information 
+{
+  "info": {
+    "total_memory_in_gb": 8,
+    "gpuFeatures": {
+      "2d_canvas": "enabled",
+      "flash_3d": "enabled",
+      "flash_stage3d": "enabled",
+      "flash_stage3d_baseline": "enabled",
+      "gpu_compositing": "enabled",
+      "metal": "disabled_off",
+      "multiple_raster_threads": "enabled_on",
+      "oop_rasterization": "disabled_off",
+      "opengl": "enabled_on",
+      "protected_video_decode": "unavailable_off",
+      "rasterization": "enabled",
+      "skia_renderer": "disabled_off_ok",
+      "video_decode": "enabled",
+      "viz_display_compositor": "enabled_on",
+      "webgl": "enabled",
+      "webgl2": "enabled"
+    },
+    "cpu_model": "Intel(R) Core(TM) i5-5575R CPU @ 2.80GHz",
+    "cpu_logical_core": 4,
+    "cpu_clock_speed": 2800,
+    "gpuDevice": [
+      {
+        "active": true,
+        "cudaComputeCapabilityMajor": 0,
+        "deviceId": 5666,
+        "vendorId": 32902
+      }
+    ],
+    "machine_model_name": "iMac",
+    "machine_model_version": "16.2"
+  }
+}
+[07/06/20, 12:17:27:714] info: Store: TOKEN_FILE_PROCESSED 
+[07/06/20, 12:17:27:714] info: AutoLoginEpic: Processing token file for autologin. 
+[07/06/20, 12:17:27:715] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces. 
+[07/06/20, 12:17:27:715] info: Store: AUTOLOGIN_TEAMS_COMPLETE 
+[07/06/20, 12:17:27:716] info: AutoLoginEpic: Setting default sign-in team to null 
+[07/06/20, 12:17:27:716] info: Store: UPDATE_SETTINGS 
+{
+  "defaultSigninTeam": null
+}
+[07/06/20, 12:17:27:730] info: registerLifeCycleEvents: Registering webContents:2 
+[07/06/20, 12:17:27:730] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "state": "unloaded"
+}
+[07/06/20, 12:17:27:733] info: MainWindowEpics: Setting main window ID 
+{
+  "id": 2
+}
+[07/06/20, 12:17:27:735] info: Store: WINDOW_CREATED 
+{
+  "frame": {
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 560,
+      "y": 240,
+      "width": 800,
+      "height": 600
+    }
+  },
+  "type": "main",
+  "id": 2
+}
+[07/06/20, 12:17:27:735] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 1,
+  "interval": 976
+}
+[07/06/20, 12:17:27:754] info: Watching for keyboard layout changes 
+[07/06/20, 12:17:27:894] info: Store: UPDATE_SETTINGS 
+{
+  "keyboardLayout": "com.apple.keylayout.ABC"
+}
+[07/06/20, 12:17:28:899] info: applyLocale: locale set to en-GB 
+[07/06/20, 12:17:28:899] info: Store: UPDATE_SETTINGS 
+{
+  "locale": "en-GB"
+}
+[07/06/20, 12:17:30:235] info: MagicLogin: Added team TRTQJF40Z 
+[07/06/20, 12:17:30:552] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "title": "[REDACTED]"
+  },
+  "fromEvent": true
+}
+[07/06/20, 12:17:31:685] info: Store: UPDATE_SETTINGS 
+{
+  "userTheme": "light"
+}
+[07/06/20, 12:17:31:685] info: Store: UPDATE_SETTINGS 
+{
+  "systemThemeSyncEnabled": false
+}
+[07/06/20, 12:17:32:214] info: Store: SET_NETWORK_STATUS online
+[07/06/20, 12:17:32:350] info: registerLifeCycleEvents: webContents:2 from 'unloaded' to 'loaded' took 4618 ms 
+[07/06/20, 12:17:32:350] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "state": "loaded"
+}
+[07/06/20, 12:17:32:351] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 2,
+  "interval": 4616
+}
+[07/06/20, 12:17:32:362] info: initializeMainWindowEpic: Showing main window 
+{
+  "maximized": false,
+  "shouldHide": false,
+  "fullScreen": false
+}
+[07/06/20, 12:17:32:386] info: Store: MAIN_WINDOW_SHOWN 
+[07/06/20, 12:17:32:387] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 448,
+      "y": 129,
+      "width": 1024,
+      "height": 768
+    }
+  }
+}
+[07/06/20, 12:17:32:388] info: Store: CLEAR_NOTIFICATIONS 
+[07/06/20, 12:17:32:398] info: Store: SET_UPDATE_STATUS check-for-update
+[07/06/20, 12:17:32:402] info: Updater: Endpoint version is set to "2". 
+[07/06/20, 12:17:32:403] info: Updater: shouldIUpdate(): Attempting to query the backend for updates 
+{
+  "feedURL": "https://slack.com/desktop/update/v2/should-i-update?platform=darwin&version=4.6.0&os_version=18.7.0&channel=prod"
+}
+[07/06/20, 12:17:32:486] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "isVisible": true
+  },
+  "fromEvent": true
+}
+[07/06/20, 12:17:32:488] info: registerLifeCycleEvents: webContents:2 is type 'app' 
+[07/06/20, 12:17:32:488] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "type": "app",
+  "history": "[REDACTED]"
+}
+[07/06/20, 12:17:32:495] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "isVisible": true,
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/06/20, 12:17:32:502] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/06/20, 12:17:32:763] info: Updater: shouldIUpdate() received result 
+{
+  "update_available": false,
+  "version": null,
+  "url": null,
+  "why": [
+    "no_update_available_general"
+  ]
+}
+[07/06/20, 12:17:32:763] info: Store: SET_UPDATE_STATUS up-to-date
+[07/06/20, 12:17:34:459] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/06/20, 12:17:34:469] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "isVisible": false
+  },
+  "fromEvent": true
+}
+[07/06/20, 12:18:27:587] info: Store: UPDATE_SETTINGS 
+{
+  "lastClogForProxyInfo": 1594030707587
+}
+[07/06/20, 12:33:42:814] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 12:34:12:822] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 12:34:42:835] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 12:35:02:839] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 12:47:39:885] info: Store: DISPLAY_METRICS_CHANGED 
+[07/06/20, 12:47:40:611] info: Store: DISPLAY_METRICS_CHANGED 
+[07/06/20, 12:47:50:605] info: Store: DISPLAY_METRICS_CHANGED 
+[07/06/20, 12:48:17:369] info: Store: DISPLAY_METRICS_CHANGED 
+[07/06/20, 12:49:13:159] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 12:49:23:165] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 12:51:53:241] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 12:52:13:250] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 12:52:53:273] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 12:57:33:413] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 13:00:43:510] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 13:00:53:512] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 13:04:43:630] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 13:04:53:636] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 13:08:03:737] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 13:08:13:741] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 13:14:13:922] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 13:16:44:003] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 13:17:32:355] info: Store: SET_UPDATE_STATUS check-for-update
+[07/06/20, 13:17:32:359] info: Updater: Endpoint version is set to "2". 
+[07/06/20, 13:17:32:360] info: Updater: shouldIUpdate(): Attempting to query the backend for updates 
+{
+  "feedURL": "https://slack.com/desktop/update/v2/should-i-update?platform=darwin&version=4.6.0&os_version=18.7.0&channel=prod"
+}
+[07/06/20, 13:17:32:659] info: Updater: shouldIUpdate() received result 
+{
+  "update_available": false,
+  "version": null,
+  "url": null,
+  "why": [
+    "no_update_available_general"
+  ]
+}
+[07/06/20, 13:17:32:659] info: Store: SET_UPDATE_STATUS up-to-date
+[07/06/20, 13:17:32:663] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "history": "[REDACTED]"
+}
+[07/06/20, 13:17:34:495] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "title": "[REDACTED]"
+  },
+  "fromEvent": true
+}
+[07/06/20, 13:17:34:502] info: registerLifeCycleEvents: webContents:2 from 'loaded' to 'loaded' took 1839 ms 
+[07/06/20, 13:17:34:503] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "state": "loaded"
+}
+[07/06/20, 13:17:34:989] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "history": "[REDACTED]"
+}
+[07/06/20, 13:17:35:443] info: Store: SET_NETWORK_STATUS online
+[07/06/20, 13:17:35:813] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "title": "[REDACTED]"
+  },
+  "fromEvent": true
+}
+[07/06/20, 13:17:36:503] info: Store: UPDATE_SETTINGS 
+{
+  "userTheme": "light"
+}
+[07/06/20, 13:17:36:504] info: Store: UPDATE_SETTINGS 
+{
+  "systemThemeSyncEnabled": false
+}
+[07/06/20, 13:17:37:242] info: registerLifeCycleEvents: webContents:2 from 'loaded' to 'loaded' took 2253 ms 
+[07/06/20, 13:17:37:242] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "state": "loaded"
+}
+[07/06/20, 13:17:37:408] info: Store: SET_NETWORK_STATUS online
+[07/06/20, 13:18:00:059] info: Store: DISPLAY_METRICS_CHANGED 
+[07/06/20, 13:18:44:068] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 13:19:34:090] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 13:23:02:217] info: Store: DISPLAY_METRICS_CHANGED 
+[07/06/20, 13:23:44:203] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 13:24:14:213] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 13:24:35:596] info: Store: DISPLAY_METRICS_CHANGED 
+[07/06/20, 13:26:04:249] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 13:27:34:276] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 13:29:20:195] info: Store: DISPLAY_METRICS_CHANGED 
+[07/06/20, 13:29:32:669] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "isVisible": true
+  },
+  "fromEvent": true
+}
+[07/06/20, 13:30:04:329] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 13:30:24:339] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 13:31:04:361] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 13:35:14:457] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 13:35:34:469] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 13:36:24:491] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 13:36:44:498] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 13:39:04:548] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 13:39:54:561] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 13:40:34:578] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 13:48:24:741] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 13:48:54:753] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 13:51:54:821] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 13:52:14:823] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 13:56:04:919] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 13:56:24:924] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 14:00:05:015] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 14:00:15:022] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 14:02:05:060] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 14:02:25:070] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 14:06:25:159] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 14:06:55:170] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 14:15:25:375] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 14:15:55:391] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 14:16:35:409] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 14:16:55:418] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 14:17:32:312] info: Store: SET_UPDATE_STATUS check-for-update
+[07/06/20, 14:17:32:316] info: Updater: Endpoint version is set to "2". 
+[07/06/20, 14:17:32:317] info: Updater: shouldIUpdate(): Attempting to query the backend for updates 
+{
+  "feedURL": "https://slack.com/desktop/update/v2/should-i-update?platform=darwin&version=4.6.0&os_version=18.7.0&channel=prod"
+}
+[07/06/20, 14:17:32:602] info: Updater: shouldIUpdate() received result 
+{
+  "update_available": false,
+  "version": null,
+  "url": null,
+  "why": [
+    "no_update_available_general"
+  ]
+}
+[07/06/20, 14:17:32:602] info: Store: SET_UPDATE_STATUS up-to-date
+[07/06/20, 14:20:15:509] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 14:20:35:518] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 14:22:05:563] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 14:27:55:766] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 14:29:25:805] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 14:29:45:818] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 14:34:35:965] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 14:34:45:972] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 14:36:06:004] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 14:36:16:008] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 14:37:33:369] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "isVisible": false
+  },
+  "fromEvent": true
+}
+[07/06/20, 14:37:46:913] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "isVisible": true
+  },
+  "fromEvent": true
+}
+[07/06/20, 14:43:46:269] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 14:51:26:610] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 14:51:56:625] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 14:55:16:723] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 14:55:56:742] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[07/06/20, 15:05:37:128] info: Store: SET_SYSTEM_IDLE idle_presence
+[07/06/20, 15:11:57:430] info: Store: SET_SYSTEM_IDLE active
+[07/06/20, 15:12:43:374] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/06/20, 15:12:48:553] info: Main window closed, consider it a quit action 
+{
+  "runFromTray": true,
+  "keepAppInTaskbar": false
+}
+[07/06/20, 15:12:48:553] info: Store: QUIT_APP 
+[07/06/20, 15:12:48:554] info: Store: DOWNLOADS_CLEANED_UP 
+[07/06/20, 15:12:48:556] info: EpicHelpers: Flushing cookie store 
+[07/06/20, 15:12:48:560] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/06/20, 15:12:48:561] info: EpicHelpers: Flushing local-settings.json 
+[07/06/20, 15:12:48:561] info: LocalSettings: Setting useHwAcceleration to true 
+[07/06/20, 15:12:48:658] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 2,
+  "frame": {
+    "isVisible": false
+  },
+  "fromEvent": true
+}
+[07/06/20, 15:12:48:659] info: registerLifeCycleEvents: webContents:2 from 'loaded' to 'page-closed' took 6911417 ms 
+[07/06/20, 15:12:48:659] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "state": "page-closed"
+}
+[07/06/20, 15:12:48:660] info: Telling native-keymap to ignore all future events as we are quitting 
+[07/06/20, 15:12:48:673] info: Store: REMOVE_WEB_CONTENTS 
+{
+  "id": 2
+}
+[07/06/20, 15:12:48:678] info: Store: REMOVE_WINDOW 2
+[07/06/20, 15:12:48:723] info: quitApplicationEpic: Disposing item 'slack-ReduxPersistStorage' 
+[07/06/20, 15:12:48:724] info: quitApplicationEpic: Disposing item 'basic_auth_handler_BasicAuthHandler' 
+[07/06/20, 15:12:48:724] info: quitApplicationEpic: Disposing item 'browser_window_manager_BrowserWindowManager' 
+[07/06/20, 15:12:48:724] info: quitApplicationEpic: Disposing item 'signout_manager_SignOutManager' 
+[07/06/20, 15:12:48:724] info: quitApplicationEpic: Disposing item 'slack_resources_url_handler_SlackResourcesUrlHandler' 
+[07/06/20, 15:12:48:724] info: quitApplicationEpic: Disposing item 'tray_handler_TrayHandler' 
+[07/06/20, 15:12:48:724] info: quitApplicationEpic: Disposing item 'app_menu_AppMenu' 
+[07/06/20, 15:12:48:725] error: Tried to close the main window but it does not exist 
+[07/06/20, 15:12:48:726] info: 
++-------------------+--------------+
+| FLUSH_COOKIES     | 5.105171ms   |
+|-------------------+--------------+
+| TEARDOWN_STORE    | 0.070971ms   |
+|-------------------+--------------+
+| REMOVE_DICT       | 66.032312ms  |
+|-------------------+--------------+
+| FLUSH_TELEMETRY   | 0.264444ms   |
+|-------------------+--------------+
+| CLOSE_MAIN_WINDOW | 0.161588ms   |
+|-------------------+--------------+
+| TOTAL             | 170.458174ms |
++-------------------+--------------+ 
+[07/06/20, 15:12:48:726] info: quitApplicationEpic: Finished, calling app.quit 

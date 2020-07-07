@@ -1,0 +1,271 @@
+[07/06/20, 12:17:32:490] info: 
+╔═══════════════════════════════════════════════════════════════════════╗
+║      Slack 4.6.0, darwin 18.7.0 on x64 at 07/06/20, 12:17:32:490      ║
+╚═══════════════════════════════════════════════════════════════════════╝ 
+[07/06/20, 12:17:32:491] info: Configured logger via 
+{
+  "identifierOverride": "webapp-console",
+  "logLevel": "info",
+  "numberOfInstances": 2
+}
+[07/06/20, 12:17:32:491] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "darwin",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.channel": "prod",
+  "PACKAGE_MANIFEST.version": "4.6.0",
+  "PACKAGE_MANIFEST.commit": "b3b0e97",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[07/06/20, 12:17:32:491] info: Creating desktop interface object 
+[07/06/20, 12:17:32:491] info: Exposing context bridge 
+[07/06/20, 12:17:32:492] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[07/06/20, 12:17:32:492] info: Network status check {
+  "elapsed_time_ms": 1380,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[07/06/20, 12:17:32:492] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[07/06/20, 12:17:32:492] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[07/06/20, 12:17:32:492] warn: error getActiveModelOb found no ob 
+[07/06/20, 12:17:32:492] warn: TS.boot_data.channel_id: undefined 
+[07/06/20, 12:17:32:492] warn: TS.boot_data.im_id: undefined 
+[07/06/20, 12:17:32:492] warn: TS.boot_data.group_id: undefined 
+[07/06/20, 12:17:32:492] warn: error getActiveModelOb found no ob 
+[07/06/20, 12:17:32:493] warn: TS.boot_data.channel_id: undefined 
+[07/06/20, 12:17:32:493] warn: TS.boot_data.im_id: undefined 
+[07/06/20, 12:17:32:493] warn: TS.boot_data.group_id: undefined 
+[07/06/20, 12:17:32:493] info: [BOOT] booted! pri:0 version:1594023716 start_ms:1594030650727 (1546ms ago) 
+[07/06/20, 12:17:32:493] info: Exposing workspace desktop delegate for  {
+  "workspaceId": "T00000000"
+} 
+[07/06/20, 12:17:32:493] info: Setting global desktop delegate 
+[07/06/20, 12:17:32:493] warn: (T00000000) Clogger context could not be determined, using empty context 
+[07/06/20, 12:17:32:493] info: Store: SET_NETWORK_STATUS online 
+[07/06/20, 12:17:32:493] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[07/06/20, 12:17:32:493] info: [INFO] no TS.client on page:https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient 
+[07/06/20, 12:17:32:494] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "state": "loaded"
+} 
+[07/06/20, 12:17:32:494] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 2,
+  "interval": 4616
+} 
+[07/06/20, 12:17:32:494] warn: (electron) 'setLayoutZoomLevelLimits' is deprecated and will be removed. 
+[07/06/20, 12:17:32:503] info: Store: MAIN_WINDOW_SHOWN  
+[07/06/20, 12:17:32:503] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 448,
+      "y": 129,
+      "width": 1024,
+      "height": 768
+    }
+  }
+} 
+[07/06/20, 12:17:32:503] info: Store: CLEAR_NOTIFICATIONS  
+[07/06/20, 12:17:32:505] info: Store: SET_UPDATE_STATUS check-for-update 
+[07/06/20, 12:17:32:506] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "type": "app",
+  "history": "[REDACTED]"
+} 
+[07/06/20, 12:17:32:767] info: Store: SET_UPDATE_STATUS up-to-date 
+[07/06/20, 12:17:33:533] info: [INFO] running without a user 
+[07/06/20, 12:17:34:471] info: [FOCUS-EVENT] Window blurred 
+[07/06/20, 12:17:34:471] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[07/06/20, 12:17:34:472] info: [UNKNOWN-FETCH-MANAGER] (T00000000) requesting T00000000 (1) 
+[07/06/20, 12:17:34:475] warn: TRACES You tried to get a team-specific tracer but didn’t provide enough context and are getting the generic tracer instead which is likely not what you want. 
+[07/06/20, 12:17:34:481] info: [API-Q] (T00000000) e556c90d-1594030654.472 team.info called with reason: UnknownFetchManager 
+[07/06/20, 12:17:34:481] info: [API-Q] (T00000000) e556c90d-1594030654.472 team.info is ENQUEUED 
+[07/06/20, 12:17:34:481] info: [API-Q] (T00000000) e556c90d-1594030654.472 team.info is ACTIVE 
+[07/06/20, 12:17:34:733] info: [API-Q] (T00000000) e556c90d-1594030654.472 team.info is REJECTED: API not ok not_authed 
+[07/06/20, 12:17:34:735] info: [UNKNOWN-FETCH-MANAGER] (T00000000) received T00000000 (1) 
+[07/06/20, 12:17:34:736] warn: (T00000000) UnknownFetchManager requested 1 objects but received 0. Missing objects: T00000000 
+[07/06/20, 12:18:27:588] info: Store: UPDATE_SETTINGS {
+  "lastClogForProxyInfo": 1594030707587
+} 
+[07/06/20, 12:33:42:815] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 12:34:12:822] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 12:34:42:836] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 12:35:02:862] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 12:47:39:886] info: Store: DISPLAY_METRICS_CHANGED  
+[07/06/20, 12:47:40:612] info: Store: DISPLAY_METRICS_CHANGED  
+[07/06/20, 12:47:50:606] info: Store: DISPLAY_METRICS_CHANGED  
+[07/06/20, 12:48:17:370] info: Store: DISPLAY_METRICS_CHANGED  
+[07/06/20, 12:49:13:160] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 12:49:23:166] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 12:51:53:242] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 12:52:13:250] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 12:52:53:274] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 12:57:33:414] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 13:00:43:510] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 13:00:53:513] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 13:04:43:631] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 13:04:53:637] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 13:08:03:738] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 13:08:13:742] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 13:14:13:923] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 13:16:44:004] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 13:17:32:386] info: Store: SET_UPDATE_STATUS check-for-update 
+[07/06/20, 13:17:32:664] info: Store: SET_UPDATE_STATUS up-to-date 
+[07/06/20, 13:17:32:664] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "history": "[REDACTED]"
+} 
+[07/06/20, 13:17:32:709] info: [WINDOW-UNLOADING] (T00000000) workspace handling window unloading event 
+[07/06/20, 13:17:34:483] info: Creating desktop interface object 
+[07/06/20, 13:17:34:486] info: Exposing context bridge 
+[07/06/20, 13:17:34:504] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "state": "loaded"
+} 
+[07/06/20, 13:17:34:505] warn: (electron) 'setLayoutZoomLevelLimits' is deprecated and will be removed. 
+[07/06/20, 13:17:34:650] info: [METRICS] Starting timers for metrics collection 
+[07/06/20, 13:17:34:705] info: [PERF] setupGantry_w begin 560ms 
+[07/06/20, 13:17:34:707] info: [APP] client 
+[07/06/20, 13:17:34:707] info: [DATE/TIME] 1594034254706 "2020-07-06T11:17:34.706Z" 
+[07/06/20, 13:17:34:707] info: [VERSION] version_hash: e556c90d0ebf5373cdf231f795c49136195eb2b1 
+[07/06/20, 13:17:34:707] info: [VERSION] version_ts: 1594023716 
+[07/06/20, 13:17:34:707] info: [VERSION] min_version_data_ts: 1581290339 
+[07/06/20, 13:17:34:708] info: [AUTH] authCookieChanged: started listening to the event 
+[07/06/20, 13:17:34:709] info: [AUTH] Need to re-fetch auth (sc=true, psc=NaN, csc=1594034252, mfc=true, lf=0, mf=1562000400) 
+[07/06/20, 13:17:34:710] info: [AUTH] fetchAuthAndReturnToUrl: auth fetch times: 1594034254710 
+[07/06/20, 13:17:34:711] info: [AUTH] fetchAuthAndReturnToUrl: will return to /client 
+[07/06/20, 13:17:34:711] info: [AUTH] fetchAuthAndReturnToUrl: fetching credentials with iframe at /auth?app=client&return_to=%2Fclient&teams= 
+[07/06/20, 13:17:34:714] info: [WD] All assets have reported back; s: 7; f: 0 
+[07/06/20, 13:17:34:980] info: [AUTH] credentials are ready 
+[07/06/20, 13:17:34:983] info: [AUTH] credentials are ready ({"added":[],"changed":[],"removed":[],"isNoOp":true,"usersChanged":false}) 
+[07/06/20, 13:17:34:984] info: [LOCAL-CONFIG] ingestIncomingConfig(): processing 77 bytes of data 
+[07/06/20, 13:17:34:984] info: [LOCAL-CONFIG] No "teams" in new local config. IncomingConfig: . New Config: . Previous Config: . 
+[07/06/20, 13:17:34:984] info: [LOCAL-CONFIG] ingestIncomingConfig(): teams before: (none), teams now: (no change) 
+[07/06/20, 13:17:34:986] info: [BOOT] Initial team ID: null 
+[07/06/20, 13:17:34:987] warn: [AUTH] Not signed into any teams 
+[07/06/20, 13:17:34:988] info: [AUTH] Navigating to sign-in 
+[07/06/20, 13:17:34:988] info: [AUTH] SSB Sign in. Expired team id: undefined {"orderedTeamIds":[],"prevTeams":{}} 
+[07/06/20, 13:17:34:989] info: [AUTH] Expired team: undefined. Sign in url: /ssb/first?v=4.6.0&redir=%2Fgantry%2Fauth%3Fapp%3Dclient%26lc%3D1594034252%26return_to%3D%252Fclient%26teams%3D 
+[07/06/20, 13:17:35:025] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "history": "[REDACTED]"
+} 
+[07/06/20, 13:17:35:443] info: Network status check {
+  "elapsed_time_ms": 246,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[07/06/20, 13:17:35:444] info: Store: SET_NETWORK_STATUS online 
+[07/06/20, 13:17:35:806] info: Creating desktop interface object 
+[07/06/20, 13:17:35:806] info: Exposing context bridge 
+[07/06/20, 13:17:35:904] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[07/06/20, 13:17:37:045] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[07/06/20, 13:17:37:045] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[07/06/20, 13:17:37:137] warn: error getActiveModelOb found no ob 
+[07/06/20, 13:17:37:137] warn: TS.boot_data.channel_id: undefined 
+[07/06/20, 13:17:37:138] warn: TS.boot_data.im_id: undefined 
+[07/06/20, 13:17:37:138] warn: TS.boot_data.group_id: undefined 
+[07/06/20, 13:17:37:138] warn: error getActiveModelOb found no ob 
+[07/06/20, 13:17:37:139] warn: TS.boot_data.channel_id: undefined 
+[07/06/20, 13:17:37:139] warn: TS.boot_data.im_id: undefined 
+[07/06/20, 13:17:37:139] warn: TS.boot_data.group_id: undefined 
+[07/06/20, 13:17:37:192] info: [BOOT] booted! pri:0 version:1594023716 start_ms:1594034255871 (1320ms ago) 
+[07/06/20, 13:17:37:224] info: Exposing workspace desktop delegate for  {
+  "workspaceId": "T00000000"
+} 
+[07/06/20, 13:17:37:225] info: Setting global desktop delegate 
+[07/06/20, 13:17:37:226] warn: (T00000000) Clogger context could not be determined, using empty context 
+[07/06/20, 13:17:37:243] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "state": "loaded"
+} 
+[07/06/20, 13:17:37:244] warn: (electron) 'setLayoutZoomLevelLimits' is deprecated and will be removed. 
+[07/06/20, 13:17:37:408] info: Network status check {
+  "elapsed_time_ms": 245,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[07/06/20, 13:17:37:409] info: Store: SET_NETWORK_STATUS online 
+[07/06/20, 13:17:38:227] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[07/06/20, 13:17:38:228] info: [INFO] no TS.client on page:https://app.slack.com/ssb/first?v=4.6.0&redir=%2Fgantry%2Fauth%3Fapp%3Dclient%26lc%3D1594034252%26return_to%3D%252Fclient%26teams%3D 
+[07/06/20, 13:17:39:019] info: [INFO] running without a user 
+[07/06/20, 13:18:00:060] info: Store: DISPLAY_METRICS_CHANGED  
+[07/06/20, 13:18:44:069] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 13:19:34:091] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 13:23:02:219] info: Store: DISPLAY_METRICS_CHANGED  
+[07/06/20, 13:23:44:204] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 13:24:14:214] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 13:24:35:596] info: Store: DISPLAY_METRICS_CHANGED  
+[07/06/20, 13:26:04:250] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 13:27:34:277] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 13:29:20:196] info: Store: DISPLAY_METRICS_CHANGED  
+[07/06/20, 13:30:04:330] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 13:30:24:340] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 13:31:04:362] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 13:35:14:458] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 13:35:34:470] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 13:36:24:492] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 13:36:44:499] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 13:39:04:549] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 13:39:54:562] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 13:40:34:579] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 13:48:24:742] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 13:48:54:754] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 13:51:54:822] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 13:52:14:824] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 13:56:04:920] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 13:56:24:925] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 14:00:05:016] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 14:00:15:023] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 14:02:05:061] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 14:02:25:070] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 14:06:25:170] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 14:06:55:171] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 14:15:25:376] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 14:15:55:391] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 14:16:35:410] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 14:16:55:419] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 14:17:32:321] info: Store: SET_UPDATE_STATUS check-for-update 
+[07/06/20, 14:17:32:605] info: Store: SET_UPDATE_STATUS up-to-date 
+[07/06/20, 14:20:15:510] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 14:20:35:519] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 14:22:05:564] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 14:27:55:767] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 14:29:25:806] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 14:29:45:819] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 14:34:35:966] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 14:34:45:972] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 14:36:06:004] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 14:36:16:009] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 14:43:46:270] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 14:51:26:611] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 14:51:56:626] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 14:55:16:724] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 14:55:56:743] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[07/06/20, 15:05:37:134] info: Store: SET_SYSTEM_IDLE idle_presence 
+[07/06/20, 15:11:57:431] info: Store: SET_SYSTEM_IDLE active 
+[07/06/20, 15:12:43:392] info: [FOCUS-EVENT] Window focused 
+[07/06/20, 15:12:43:441] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[07/06/20, 15:12:43:442] info: [UNKNOWN-FETCH-MANAGER] (T00000000) requesting T00000000 (1) 
+[07/06/20, 15:12:43:446] warn: TRACES You tried to get a team-specific tracer but didn’t provide enough context and are getting the generic tracer instead which is likely not what you want. 
+[07/06/20, 15:12:43:450] info: [API-Q] (T00000000) e556c90d-1594041163.446 team.info called with reason: UnknownFetchManager 
+[07/06/20, 15:12:43:450] info: [API-Q] (T00000000) e556c90d-1594041163.446 team.info is ENQUEUED 
+[07/06/20, 15:12:43:451] info: [API-Q] (T00000000) e556c90d-1594041163.446 team.info is ACTIVE 
+[07/06/20, 15:12:45:694] info: [API-Q] (T00000000) e556c90d-1594041163.446 team.info is REJECTED: API not ok not_authed 
+[07/06/20, 15:12:45:699] info: [UNKNOWN-FETCH-MANAGER] (T00000000) received T00000000 (1) 
+[07/06/20, 15:12:45:700] warn: (T00000000) UnknownFetchManager requested 1 objects but received 0. Missing objects: T00000000 
+[07/06/20, 15:12:48:559] info: Store: QUIT_APP  
+[07/06/20, 15:12:48:559] info: Store: DOWNLOADS_CLEANED_UP  
+[07/06/20, 15:12:48:561] info: [FOCUS-EVENT] Window blurred 
+[07/06/20, 15:12:48:658] info: [WINDOW-UNLOADING] (T00000000) workspace handling window unloading event 

@@ -1,0 +1,209 @@
+try{
+Cw("sy2");
+/*
+
+ ## MIT
+
+ Copyright (c) 2013–2015 Streams Standard Reference Implementation Authors
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+
+
+ ## CC0
+
+ To the extent possible under law, the authors have dedicated all copyright and
+ related and neighboring rights to this software to the public domain worldwide.
+ This software is distributed without any warranty.
+
+ You should have received a copy of the CC0 Public Domain Dedication along with
+ this software. If not, see https://creativecommons.org/publicdomain/zero/1.0/.
+
+ Creative Commons Legal Code
+
+ CC0 1.0 Universal
+
+     CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+     LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+     ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+     INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+     REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+     PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+     THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+     HEREUNDER.
+
+ Statement of Purpose
+
+ The laws of most jurisdictions throughout the world automatically confer
+ exclusive Copyright and Related Rights (defined below) upon the creator
+ and subsequent owner(s) (each and all, an "owner") of an original work of
+ authorship and/or a database (each, a "Work").
+
+ Certain owners wish to permanently relinquish those rights to a Work for
+ the purpose of contributing to a commons of creative, cultural and
+ scientific works ("Commons") that the public can reliably and without fear
+ of later claims of infringement build upon, modify, incorporate in other
+ works, reuse and redistribute as freely as possible in any form whatsoever
+ and for any purposes, including without limitation commercial purposes.
+ These owners may contribute to the Commons to promote the ideal of a free
+ culture and the further production of creative, cultural and scientific
+ works, or to gain reputation or greater distribution for their Work in
+ part through the use and efforts of others.
+
+ For these and/or other purposes and motivations, and without any
+ expectation of additional consideration or compensation, the person
+ associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+ is an owner of Copyright and Related Rights in the Work, voluntarily
+ elects to apply CC0 to the Work and publicly distribute the Work under its
+ terms, with knowledge of his or her Copyright and Related Rights in the
+ Work and the meaning and intended legal effect of CC0 on those rights.
+
+ 1. Copyright and Related Rights. A Work made available under CC0 may be
+ protected by copyright and related or neighboring rights ("Copyright and
+ Related Rights"). Copyright and Related Rights include, but are not
+ limited to, the following:
+
+   i. the right to reproduce, adapt, distribute, perform, display,
+      communicate, and translate a Work;
+  ii. moral rights retained by the original author(s) and/or performer(s);
+ iii. publicity and privacy rights pertaining to a person's image or
+      likeness depicted in a Work;
+  iv. rights protecting against unfair competition in regards to a Work,
+      subject to the limitations in paragraph 4(a), below;
+   v. rights protecting the extraction, dissemination, use and reuse of data
+      in a Work;
+  vi. database rights (such as those arising under Directive 96/9/EC of the
+      European Parliament and of the Council of 11 March 1996 on the legal
+      protection of databases, and under any national implementation
+      thereof, including any amended or successor version of such
+      directive); and
+ vii. other similar, equivalent or corresponding rights throughout the
+      world based on applicable law or treaty, and any national
+      implementations thereof.
+
+ 2. Waiver. To the greatest extent permitted by, but not in contravention
+ of, applicable law, Affirmer hereby overtly, fully, permanently,
+ irrevocably and unconditionally waives, abandons, and surrenders all of
+ Affirmer's Copyright and Related Rights and associated claims and causes
+ of action, whether now known or unknown (including existing as well as
+ future claims and causes of action), in the Work (i) in all territories
+ worldwide, (ii) for the maximum duration provided by applicable law or
+ treaty (including future time extensions), (iii) in any current or future
+ medium and for any number of copies, and (iv) for any purpose whatsoever,
+ including without limitation commercial, advertising or promotional
+ purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+ member of the public at large and to the detriment of Affirmer's heirs and
+ successors, fully intending that such Waiver shall not be subject to
+ revocation, rescission, cancellation, termination, or any other legal or
+ equitable action to disrupt the quiet enjoyment of the Work by the public
+ as contemplated by Affirmer's express Statement of Purpose.
+
+ 3. Public License Fallback. Should any part of the Waiver for any reason
+ be judged legally invalid or ineffective under applicable law, then the
+ Waiver shall be preserved to the maximum extent permitted taking into
+ account Affirmer's express Statement of Purpose. In addition, to the
+ extent the Waiver is so judged Affirmer hereby grants to each affected
+ person a royalty-free, non transferable, non sublicensable, non exclusive,
+ irrevocable and unconditional license to exercise Affirmer's Copyright and
+ Related Rights in the Work (i) in all territories worldwide, (ii) for the
+ maximum duration provided by applicable law or treaty (including future
+ time extensions), (iii) in any current or future medium and for any number
+ of copies, and (iv) for any purpose whatsoever, including without
+ limitation commercial, advertising or promotional purposes (the
+ "License"). The License shall be deemed effective as of the date CC0 was
+ applied by Affirmer to the Work. Should any part of the License for any
+ reason be judged legally invalid or ineffective under applicable law, such
+ partial invalidity or ineffectiveness shall not invalidate the remainder
+ of the License, and in such case Affirmer hereby affirms that he or she
+ will not (i) exercise any of his or her remaining Copyright and Related
+ Rights in the Work or (ii) assert any associated claims and causes of
+ action with respect to the Work, in either case contrary to Affirmer's
+ express Statement of Purpose.
+
+ 4. Limitations and Disclaimers.
+
+  a. No trademark or patent rights held by Affirmer are waived, abandoned,
+     surrendered, licensed or otherwise affected by this document.
+  b. Affirmer offers the Work as-is and makes no representations or
+     warranties of any kind concerning the Work, express, implied,
+     statutory or otherwise, including without limitation warranties of
+     title, merchantability, fitness for a particular purpose, non
+     infringement, or the absence of latent or other defects, accuracy, or
+     the present or absence of errors, whether or not discoverable, all to
+     the greatest extent permissible under applicable law.
+  c. Affirmer disclaims responsibility for clearing rights of other persons
+     that may apply to the Work or any use thereof, including without
+     limitation any person's Copyright and Related Rights in the Work.
+     Further, Affirmer disclaims responsibility for obtaining any necessary
+     consents, permissions or other rights required for any use of the
+     Work.
+  d. Affirmer understands and acknowledges that Creative Commons is not a
+     party to this document and has no duty or obligation with respect to
+     this CC0 or use of the Work.
+*/
+var Y8=new uB("realtime.media.logging.upload.uploader");Xj();var Z8=B(["Call has ended"]);
+var $8=B(["Log upload allowed. Starting upload."]),a9=B(["Log upload disallowed. Stopping upload."]);
+
+pa().g();
+
+}catch(e){_DumpException(e)}
+try{
+Cw("sy3");
+var b9=function(a,b){this.g=new rz(a.u,oC(a),function(){return Ga(a,b)})},c9=function(a,b){return new b9(a,b||vd(oC(a)))};
+var e9=function(a){Q(this,a,"hc:rc",-1,d9,null)};H(e9,p);var f9=function(a){Q(this,a,0,-1,null,null)};H(f9,p);var d9=[7];e9.messageId="hc:rc";e9.prototype.na=function(){return t(this,3)};e9.prototype.Xb=function(){return t(this,11)};
+/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+var g9=function(){this.l=-1};
+var h9=function(){this.l=64;this.g=Array(4);this.u=Array(this.l);this.H=this.o=0;this.reset()};H(h9,g9);h9.prototype.reset=function(){this.g[0]=1732584193;this.g[1]=4023233417;this.g[2]=2562383102;this.g[3]=271733878;this.H=this.o=0};
+var i9=function(a,b,c){c||(c=0);var d=Array(16);if("string"===typeof b)for(var e=0;16>e;++e)d[e]=b.charCodeAt(c++)|b.charCodeAt(c++)<<8|b.charCodeAt(c++)<<16|b.charCodeAt(c++)<<24;else for(e=0;16>e;++e)d[e]=b[c++]|b[c++]<<8|b[c++]<<16|b[c++]<<24;b=a.g[0];c=a.g[1];e=a.g[2];var f=a.g[3];var g=b+(f^c&(e^f))+d[0]+3614090360&4294967295;b=c+(g<<7&4294967295|g>>>25);g=f+(e^b&(c^e))+d[1]+3905402710&4294967295;f=b+(g<<12&4294967295|g>>>20);g=e+(c^f&(b^c))+d[2]+606105819&4294967295;e=f+(g<<17&4294967295|g>>>
+15);g=c+(b^e&(f^b))+d[3]+3250441966&4294967295;c=e+(g<<22&4294967295|g>>>10);g=b+(f^c&(e^f))+d[4]+4118548399&4294967295;b=c+(g<<7&4294967295|g>>>25);g=f+(e^b&(c^e))+d[5]+1200080426&4294967295;f=b+(g<<12&4294967295|g>>>20);g=e+(c^f&(b^c))+d[6]+2821735955&4294967295;e=f+(g<<17&4294967295|g>>>15);g=c+(b^e&(f^b))+d[7]+4249261313&4294967295;c=e+(g<<22&4294967295|g>>>10);g=b+(f^c&(e^f))+d[8]+1770035416&4294967295;b=c+(g<<7&4294967295|g>>>25);g=f+(e^b&(c^e))+d[9]+2336552879&4294967295;f=b+(g<<12&4294967295|
+g>>>20);g=e+(c^f&(b^c))+d[10]+4294925233&4294967295;e=f+(g<<17&4294967295|g>>>15);g=c+(b^e&(f^b))+d[11]+2304563134&4294967295;c=e+(g<<22&4294967295|g>>>10);g=b+(f^c&(e^f))+d[12]+1804603682&4294967295;b=c+(g<<7&4294967295|g>>>25);g=f+(e^b&(c^e))+d[13]+4254626195&4294967295;f=b+(g<<12&4294967295|g>>>20);g=e+(c^f&(b^c))+d[14]+2792965006&4294967295;e=f+(g<<17&4294967295|g>>>15);g=c+(b^e&(f^b))+d[15]+1236535329&4294967295;c=e+(g<<22&4294967295|g>>>10);g=b+(e^f&(c^e))+d[1]+4129170786&4294967295;b=c+(g<<
+5&4294967295|g>>>27);g=f+(c^e&(b^c))+d[6]+3225465664&4294967295;f=b+(g<<9&4294967295|g>>>23);g=e+(b^c&(f^b))+d[11]+643717713&4294967295;e=f+(g<<14&4294967295|g>>>18);g=c+(f^b&(e^f))+d[0]+3921069994&4294967295;c=e+(g<<20&4294967295|g>>>12);g=b+(e^f&(c^e))+d[5]+3593408605&4294967295;b=c+(g<<5&4294967295|g>>>27);g=f+(c^e&(b^c))+d[10]+38016083&4294967295;f=b+(g<<9&4294967295|g>>>23);g=e+(b^c&(f^b))+d[15]+3634488961&4294967295;e=f+(g<<14&4294967295|g>>>18);g=c+(f^b&(e^f))+d[4]+3889429448&4294967295;c=
+e+(g<<20&4294967295|g>>>12);g=b+(e^f&(c^e))+d[9]+568446438&4294967295;b=c+(g<<5&4294967295|g>>>27);g=f+(c^e&(b^c))+d[14]+3275163606&4294967295;f=b+(g<<9&4294967295|g>>>23);g=e+(b^c&(f^b))+d[3]+4107603335&4294967295;e=f+(g<<14&4294967295|g>>>18);g=c+(f^b&(e^f))+d[8]+1163531501&4294967295;c=e+(g<<20&4294967295|g>>>12);g=b+(e^f&(c^e))+d[13]+2850285829&4294967295;b=c+(g<<5&4294967295|g>>>27);g=f+(c^e&(b^c))+d[2]+4243563512&4294967295;f=b+(g<<9&4294967295|g>>>23);g=e+(b^c&(f^b))+d[7]+1735328473&4294967295;
+e=f+(g<<14&4294967295|g>>>18);g=c+(f^b&(e^f))+d[12]+2368359562&4294967295;c=e+(g<<20&4294967295|g>>>12);g=b+(c^e^f)+d[5]+4294588738&4294967295;b=c+(g<<4&4294967295|g>>>28);g=f+(b^c^e)+d[8]+2272392833&4294967295;f=b+(g<<11&4294967295|g>>>21);g=e+(f^b^c)+d[11]+1839030562&4294967295;e=f+(g<<16&4294967295|g>>>16);g=c+(e^f^b)+d[14]+4259657740&4294967295;c=e+(g<<23&4294967295|g>>>9);g=b+(c^e^f)+d[1]+2763975236&4294967295;b=c+(g<<4&4294967295|g>>>28);g=f+(b^c^e)+d[4]+1272893353&4294967295;f=b+(g<<11&4294967295|
+g>>>21);g=e+(f^b^c)+d[7]+4139469664&4294967295;e=f+(g<<16&4294967295|g>>>16);g=c+(e^f^b)+d[10]+3200236656&4294967295;c=e+(g<<23&4294967295|g>>>9);g=b+(c^e^f)+d[13]+681279174&4294967295;b=c+(g<<4&4294967295|g>>>28);g=f+(b^c^e)+d[0]+3936430074&4294967295;f=b+(g<<11&4294967295|g>>>21);g=e+(f^b^c)+d[3]+3572445317&4294967295;e=f+(g<<16&4294967295|g>>>16);g=c+(e^f^b)+d[6]+76029189&4294967295;c=e+(g<<23&4294967295|g>>>9);g=b+(c^e^f)+d[9]+3654602809&4294967295;b=c+(g<<4&4294967295|g>>>28);g=f+(b^c^e)+d[12]+
+3873151461&4294967295;f=b+(g<<11&4294967295|g>>>21);g=e+(f^b^c)+d[15]+530742520&4294967295;e=f+(g<<16&4294967295|g>>>16);g=c+(e^f^b)+d[2]+3299628645&4294967295;c=e+(g<<23&4294967295|g>>>9);g=b+(e^(c|~f))+d[0]+4096336452&4294967295;b=c+(g<<6&4294967295|g>>>26);g=f+(c^(b|~e))+d[7]+1126891415&4294967295;f=b+(g<<10&4294967295|g>>>22);g=e+(b^(f|~c))+d[14]+2878612391&4294967295;e=f+(g<<15&4294967295|g>>>17);g=c+(f^(e|~b))+d[5]+4237533241&4294967295;c=e+(g<<21&4294967295|g>>>11);g=b+(e^(c|~f))+d[12]+1700485571&
+4294967295;b=c+(g<<6&4294967295|g>>>26);g=f+(c^(b|~e))+d[3]+2399980690&4294967295;f=b+(g<<10&4294967295|g>>>22);g=e+(b^(f|~c))+d[10]+4293915773&4294967295;e=f+(g<<15&4294967295|g>>>17);g=c+(f^(e|~b))+d[1]+2240044497&4294967295;c=e+(g<<21&4294967295|g>>>11);g=b+(e^(c|~f))+d[8]+1873313359&4294967295;b=c+(g<<6&4294967295|g>>>26);g=f+(c^(b|~e))+d[15]+4264355552&4294967295;f=b+(g<<10&4294967295|g>>>22);g=e+(b^(f|~c))+d[6]+2734768916&4294967295;e=f+(g<<15&4294967295|g>>>17);g=c+(f^(e|~b))+d[13]+1309151649&
+4294967295;c=e+(g<<21&4294967295|g>>>11);g=b+(e^(c|~f))+d[4]+4149444226&4294967295;b=c+(g<<6&4294967295|g>>>26);g=f+(c^(b|~e))+d[11]+3174756917&4294967295;f=b+(g<<10&4294967295|g>>>22);g=e+(b^(f|~c))+d[2]+718787259&4294967295;e=f+(g<<15&4294967295|g>>>17);g=c+(f^(e|~b))+d[9]+3951481745&4294967295;a.g[0]=a.g[0]+b&4294967295;a.g[1]=a.g[1]+(e+(g<<21&4294967295|g>>>11))&4294967295;a.g[2]=a.g[2]+e&4294967295;a.g[3]=a.g[3]+f&4294967295};
+h9.prototype.update=function(a,b){void 0===b&&(b=a.length);for(var c=b-this.l,d=this.u,e=this.o,f=0;f<b;){if(0==e)for(;f<=c;)i9(this,a,f),f+=this.l;if("string"===typeof a)for(;f<b;){if(d[e++]=a.charCodeAt(f++),e==this.l){i9(this,d);e=0;break}}else for(;f<b;)if(d[e++]=a[f++],e==this.l){i9(this,d);e=0;break}}this.o=e;this.H+=b};
+h9.prototype.digest=function(){var a=Array((56>this.o?this.l:2*this.l)-this.o);a[0]=128;for(var b=1;b<a.length-8;++b)a[b]=0;var c=8*this.H;for(b=a.length-8;b<a.length;++b)a[b]=c&255,c/=256;this.update(a);a=Array(16);for(b=c=0;4>b;++b)for(var d=0;32>d;d+=8)a[c++]=this.g[b]>>>d&255;return a};
+var k9=function(a,b,c,d,e){var f=new e9;m(f,3,b);b=ad();m(f,1,b);b=j9(pC(a),b);m(f,2,b);b=oC(a);m(f,4,b);b=Uh(a.g,5,0);m(f,5,b);m(f,6,c.g);a=a.Xb();m(f,11,a);Xh(f,7,d);void 0!==e&&m(f,8,e);return f},l9=function(a,b,c){var d=new yr,e=(new Date(t(b,4))).toString();m(d,2,e);e=t(b,4);m(d,133,e);e=null!=t(b,3)?t(b,3):t(a,8);m(d,30,e);m(d,3,-2);(e=t(b,1))&&m(d,1,e);e=new At;R(e,4,d);d=a.na();m(e,2,d);d=t(c.g,14);m(e,11,d||[]);b=t(b,2);m(e,21,b);c=wc(c.g,8);m(e,12,c);c=t(a,6);m(e,14,c);c=t(a,10);m(e,16,
+c);c=t(a,12);m(e,22,c);a=t(a,13);m(e,23,a);return e},j9=function(a,b){a+=b;b=new h9;b.update(a,a.length);return String.fromCharCode.apply(String,b.digest())};
+var m9=B(["Failed to create RecentCallSummary."]),n9=B(["",""]);
+
+pa().g();
+
+}catch(e){_DumpException(e)}
+try{
+var o9=function(a,b){if(a.Md&&a.qe)return a;a=a.ha();a.Md=b;return a},p9=function(a,b){a.F.forEach(function(c){c.o.Md||(c.o=o9(c.o,b),c.o.qe&&c.g.pf())});a.J=o9(a.J,b)};Cw("zYiFGf");
+var q9=function(a){var b=this;this.l=null;this.R=A(a,rC,!0).then(function(c){return b.l=c});this.u=null;this.zb=A(a,qx).then().then(function(c){return b.u=c});this.I=null;A(a,ox).then(function(c){b.I=c});this.K=wb(A(a,C_));this.L=Xj();this.J=this.L.da;this.H=null;this.o=!1;this.F=new Set;this.G=!1},r9=function(a){return Array.from(a.va.F).map(function(b){var c=new f9;c=m(c,1,b.l.g);var d=b.kb();c=m(c,2,d);c=m(c,3,b.ub);b=b.Tl();return m(c,4,b)})};
+q9.prototype.g=function(){this.G||s9(this);return this.H||!1};q9.prototype.ba=function(a){this.G=!0;this.H=a;this.K.then(function(b){b.o(a)});this.F.forEach(function(b){p9(b.va,a)});null!==this.o&&s9(this,this.g())};q9.prototype.M=function(a){var b=this;this.l=this.l||a.g;this.I=this.I||a.xc;this.G||s9(this);p9(a.va,this.g());Math.random()<=(Sh(this.l.g,9)||0)&&QZ(a.va);this.F.add(a);a.onConnect.then(function(){return t9(b,a)});u_(a.u,function(){return u9(b,a)});v9(this)};
+var w9=function(a,b){a.l?b():a.R.then(b)},x9=function(a,b){a.u?b():a.zb.then(b)},t9=function(a,b){x9(a,function(){var c=b.$a.get()||"";y9(a,c,pC(b.g)||"");var d=b.be,e=r9(b);a.u.u(b.g,c,d,e)})},y9=function(a,b,c){var d=void 0===d?!1:d;a.J.then(function(){(a.g()||d)&&a.u.o(c).filter(function(e){return e.na()===b}).forEach(function(e){u(e,f9,7).forEach(function(f){t(f,2);e.na()})})})},u9=function(a,b){a.F.delete(b);v9(a);a.K.then(function(c){c.u()});x9(a,function(){Uj([b.onConnect,b.u]).then(function(c){c=
+x(c);c.next();c=c.next().value;var d=b.g,e=b.$a.get()||"",f=b.be,g=r9(b);a.u.H(d,e,f,g,c)},pe)})},v9=function(a){a.K.then(function(){})},s9=function(a,b){w9(a,function(){a.G=!0;a.o=null;var c=Xj();c.da.then(G(a.X,a),G(a.U,a,b));var d=t(a.l.g,10);if(null!=d){null!=b&&(d=Zk(d,"set",String(b)));var e=mm.g();e.open("GET",d,!0);e.onreadystatechange=function(){4==e.readyState&&(200==e.status?c.resolve(e.responseText):c.reject(null))};e.send(null)}else c.reject(null)})};
+q9.prototype.X=function(a){this.o="true"==a;z9(this)};q9.prototype.U=function(a){this.o=void 0!==a?a:this.g();z9(this)};var z9=function(a){a.L.resolve();null===a.H&&(a.H=a.o,a.K.then(function(b){b.o(a.g())}),a.F.forEach(function(b){p9(b.va,a.g())}));a.o!=a.H&&s9(a,a.g())};q9.prototype.P=function(a){var b=A9(a);if(null==t(b,4)||null==t(b,5)||null==t(b,6)||0==(u(b,f9,7)||[]).length)return[];var c=this.l,d=c9(c,t(b,6));return u(b,f9,7).map(function(e){var f=l9(b,e,c);e=t(e,1);return wz(d.g,f,e)})};
+var A9=function(a){var b=a.g,c=a.$a.get(),d=a.be,e=r9(a);a=2==a.u.g?a.u.get():void 0;return k9(b,c,d,e,a)};
+pa().ec(function(a){Jc(a,px)||$v(a,px,function(b){return new q9(b)})});
+
+pa().g();
+
+}catch(e){_DumpException(e)}
+// Google Inc.

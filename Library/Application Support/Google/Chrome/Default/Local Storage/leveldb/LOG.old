@@ -1,0 +1,28 @@
+2020/07/06-10:52:39.618 28403 Reusing MANIFEST leveldb/MANIFEST-000001
+2020/07/06-11:48:11.481 2b62f Level-0 table #5: started
+2020/07/06-11:48:11.575 2b62f Level-0 table #5: 14957 bytes OK
+2020/07/06-11:48:11.664 2b62f Delete type=0 #3
+2020/07/06-12:27:34.933 3312b Level-0 table #7: started
+2020/07/06-12:27:35.044 3312b Level-0 table #7: 19785 bytes OK
+2020/07/06-12:27:35.144 3312b Delete type=0 #4
+2020/07/06-14:09:34.847 35453 Level-0 table #9: started
+2020/07/06-14:09:34.944 35453 Level-0 table #9: 17937 bytes OK
+2020/07/06-14:09:35.056 35453 Delete type=0 #6
+2020/07/06-15:37:34.774 311bb Level-0 table #11: started
+2020/07/06-15:37:34.895 311bb Level-0 table #11: 16291 bytes OK
+2020/07/06-15:37:34.996 311bb Delete type=0 #8
+2020/07/06-16:24:34.738 2c377 Level-0 table #13: started
+2020/07/06-16:24:34.831 2c377 Level-0 table #13: 12772 bytes OK
+2020/07/06-16:24:34.932 2c377 Delete type=0 #10
+2020/07/06-17:22:37.146 3084f Level-0 table #15: started
+2020/07/06-17:22:37.282 3084f Level-0 table #15: 13870 bytes OK
+2020/07/06-17:22:37.382 3084f Delete type=0 #12
+2020/07/06-17:22:37.383 21743 Compacting 4@0 + 1@1 files
+2020/07/06-17:22:37.515 21743 Generated table #16@0: 467 keys, 24515 bytes
+2020/07/06-17:22:37.515 21743 Compacted 4@0 + 1@1 files => 24515 bytes
+2020/07/06-17:22:37.626 21743 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/07/06-17:22:37.627 21743 Delete type=2 #15
+2020/07/06-17:22:37.627 21743 Delete type=2 #7
+2020/07/06-17:22:37.627 21743 Delete type=2 #13
+2020/07/06-17:22:37.627 21743 Delete type=2 #11
+2020/07/06-17:22:37.627 21743 Delete type=2 #9

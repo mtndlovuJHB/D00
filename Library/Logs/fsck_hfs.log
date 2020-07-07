@@ -1,0 +1,16 @@
+
+fsck_hfs started at Tue Jul  7 07:39:27 2020
+** /dev/rdisk2s1 (NO WRITE)
+   Executing fsck_hfs (version hfs-407.200.4).
+** Checking non-journaled HFS Plus Volume.
+   The volume name is Slack.app
+** Checking extents overflow file.
+** Checking catalog file.
+** Checking multi-linked files.
+** Checking catalog hierarchy.
+** Checking extended attributes file.
+** Checking volume bitmap.
+** Checking volume information.
+** The volume Slack.app appears to be OK.
+fsck_hfs completed at Tue Jul  7 07:39:27 2020
+
